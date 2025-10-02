@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Todos Santos vs. Hallowen</title>
+</head>
+<body>
+  <div class="text-center container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hallowen
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/hallowen.html">Historia</a></li>
+                    <li><a class="dropdown-item" href="#">Costumbres</a></li>
+                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Todos Santos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./pages/todosSantos.html">Historia</a></li>
+                    <li><a class="dropdown-item" href="#">Costumbres</a></li>
+                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/contactos.html">Contactos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 bg-warning p-4">
+        <h2 class="text-dark mb-4">Tradiciones de Octubre y Noviembre</h2>
+        <div id="carouselTradiciones" class="carousel slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTradiciones" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselTradiciones" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselTradiciones" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/50ac/live/162fae60-77df-11ee-bd0d-2d70b013b479.jpg.webp" class="d-block w-100" alt="Halloween">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Halloween - 31 de Octubre</h5>
+                <p>Tradición celta convertida en celebración mundial</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://miga.org.bo/wp-content/uploads/2020/11/MESATODOSSANTOS-1024x585.png" class="d-block w-100" alt="Todos Santos">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Todos Santos - 1 de Noviembre</h5>
+                <p>Honrando a nuestros santos y seres queridos</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://unifranz.edu.bo/wp-content/uploads/2024/10/todos-santos-halloween-blog.jpg" class="d-block w-100" alt="Comparación">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                <h5>Dos Tradiciones, Una Época</h5>
+                <p>Descubre las similitudes y diferencias</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselTradiciones" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselTradiciones" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div class="text-start">
+          <p class="lead">Bienvenido a nuestro sitio donde exploramos las fascinantes tradiciones de Halloween y Todos Santos.</p>
+          <p>Estas dos celebraciones, aunque diferentes en origen y práctica, comparten la proximidad en el calendario y la conexión con temas espirituales y de remembranza.</p>
+        </div>
+      </div>
+      <div class="col-sm-4 bg-info p-3">
+        <h5 class="text-white mb-3">Publicidad</h5>
+        <div class="dropdown mb-3">
+          <button class="btn btn-light dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+            Categorías de Productos
+          </button>
+          <ul class="dropdown-menu w-100">
+            <li><h6 class="dropdown-header">🎃 Halloween</h6></li>
+            <li><a class="dropdown-item" href="#">Disfraces y Máscaras</a></li>
+            <li><a class="dropdown-item" href="#">Decoraciones Terroríficas</a></li>
+            <li><a class="dropdown-item" href="#">Dulces y Caramelos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><h6 class="dropdown-header">🕯️ Todos Santos</h6></li>
+            <li><a class="dropdown-item" href="#">Flores y Coronas</a></li>
+            <li><a class="dropdown-item" href="#">Velas y Veladoras</a></li>
+            <li><a class="dropdown-item" href="#">Ofrendas Tradicionales</a></li>
+          </ul>
+        </div>
+        <div class="card mb-3">
+          <div class="card-body text-center">
+            <h6 class="card-title">Ofertas Especiales</h6>
+            <p class="card-text small">Descuentos en productos de temporada</p>
+            <a href="#" class="btn btn-warning btn-sm">Ver ofertas</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body text-center">
+            <h6 class="card-title">Guía Completa</h6>
+            <p class="card-text small">Aprende sobre ambas tradiciones</p>
+            <a href="#" class="btn btn-success btn-sm">Descargar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col bg-success py-4">
+        <footer class="text-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h6 class="fw-bold">Todos Santos vs Halloween</h6>
+                <p class="small mb-0">Descubre las tradiciones y culturas</p>
+              </div>
+              <div class="col-md-6 text-md-end">
+                <p class="small mb-1">© 2025 - Todos los derechos reservados</p>
+                <p class="small mb-0">Nombre: JOSUE DANIEL QUIROGA MENDOZA</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
